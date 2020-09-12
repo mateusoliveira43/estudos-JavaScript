@@ -1,0 +1,31 @@
+body {
+  /* margin: 0 auto; */
+  font-size: 30px;
+  background-color: #bfbfbf;
+}
+/* Cores: https://colordesigner.io/ */
+/*  preto claro: #374140
+    preto escuro: #2A2C2B
+    cinza claro: #BFBFBF
+    verde azulado: #287D7D  */
+
+h1 {
+  color: #bfbfbf;
+  background-color: #374140;
+  padding: 10px;
+  text-align: center;
+}
+.bloco {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+  padding: 0px 30px;
+}
+span {
+  text-align: center;
+  display: block;
+}
+input,
+button {
+  font-size: inherit;
+}

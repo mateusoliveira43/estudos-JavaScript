@@ -1,0 +1,22 @@
+{
+  "name": "curso_javascript_udemy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "semistandard": "^14.2.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "eslint": "^7.8.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel ./Tooling_e_Modules/main.js -o ./Tooling_e_Modules/bundle.js --presets=@babel/env -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
