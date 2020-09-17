@@ -1,3 +1,13 @@
+// const HomeModel = require('../models/HomeModel');
+
+// HomeModel.create({
+//   titulo: 'Outra coisa qualquer',
+//   descricao: 'Outra descrição.'
+// })
+// HomeModel.find()
+//   .then(dados => console.log(dados))
+//   .catch(e => console.log(e));
+
 exports.paginaInical = (req, res) => {
   // res.send(`
   // <form action="/" method="POST">
