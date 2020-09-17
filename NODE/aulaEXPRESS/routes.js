@@ -1,7 +1,14 @@
 const express = require('express');
 const route = express.Router();
-const homeController = require('./controllers/homeController');
-const contatoController = require('./controllers/contatoController');
+const homeController = require('./src/controllers/homeController');
+const contatoController = require('./src/controllers/contatoController');
+
+// function meuMiddleware(req, res, next) {
+//   console.log();
+//   console.log('Passei no seu middleware.');
+//   console.log();
+//   next();
+// }
 
 // Rotas da home
 route.get('/', homeController.paginaInical);
