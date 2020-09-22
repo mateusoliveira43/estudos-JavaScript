@@ -1,40 +1,46 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<%- include('includes/head'); %>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Modelo</title>
-</head>
+<section class="container">
+  <h1>
 
-<body>
-  <section class="container">
-    <h1>Lorem ipsum dolor sit amet</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus
-      nisi explicabo saepe voluptatibus consequuntur et corporis maxime quos,
-      doloribus vitae voluptatum quisquam necessitatibus pariatur veritatis
-      exercitationem beatae officiis suscipit Ea!
-    </p>
+    <%= titulo %><br>
+    <%= umaVariavelLocal %><br>
+    <%- titulo %><br>
 
-    <form action="">
-      <label for="1">Label</label>
-      <input type="text" id="1" />
+    <% if (typeof numeros !== 'undefined') { %>
+    <%= numeros %>
+    <% } else { %>
+    não enviaram os números :(
+    <% } %> <br>
 
-      <label for="2">Label</label>
-      <input type="password" id="2" />
+    <% numeros.forEach(num => { %>
+    <%= num %><br>
+    <% }); %>
 
-      <label for="3">Label</label>
-      <input type="email" id="3" />
 
-      <label for="4">Label</label>
-      <input type="number" id="4" />
+  </h1>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus
+    nisi explicabo saepe voluptatibus consequuntur et corporis maxime quos,
+    doloribus vitae voluptatum quisquam necessitatibus pariatur veritatis
+    exercitationem beatae officiis suscipit Ea!
+  </p>
 
-      <button>Enviar</button>
-    </form>
-  </section>
+  <form action="">
+    <label for="1">Label</label>
+    <input type="text" id="1" />
 
-  <script src="./assets/js/bundle.js"></script>
-</body>
+    <label for="2">Label</label>
+    <input type="password" id="2" />
 
-</html>
+    <label for="3">Label</label>
+    <input type="email" id="3" />
+
+    <label for="4">Label</label>
+    <input type="number" id="4" />
+
+    <button>Enviar</button>
+  </form>
+</section>
+
+<%- include('includes/footer'); %>
