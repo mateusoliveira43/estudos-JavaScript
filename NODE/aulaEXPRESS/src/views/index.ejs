@@ -1,44 +1,12 @@
 <%- include('includes/head'); %>
 
 <section class="container">
-  <h1>
+  <h1>Título</h1>
 
-    <%= titulo %><br>
-    <%= umaVariavelLocal %><br>
-    <%- titulo %><br>
-
-    <% if (typeof numeros !== 'undefined') { %>
-    <%= numeros %>
-    <% } else { %>
-    não enviaram os números :(
-    <% } %> <br>
-
-    <% numeros.forEach(num => { %>
-    <%= num %><br>
-    <% }); %>
-
-
-  </h1>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus
-    nisi explicabo saepe voluptatibus consequuntur et corporis maxime quos,
-    doloribus vitae voluptatum quisquam necessitatibus pariatur veritatis
-    exercitationem beatae officiis suscipit Ea!
-  </p>
-
-  <form action="">
-    <label for="1">Label</label>
-    <input type="text" id="1" />
-
-    <label for="2">Label</label>
-    <input type="password" id="2" />
-
-    <label for="3">Label</label>
-    <input type="email" id="3" />
-
-    <label for="4">Label</label>
-    <input type="number" id="4" />
-
+  <form action="/" method="post">
+    <input type="hidden" name="_csrf" value="<% csrfToken %>">
+    <label>Cliente</label>
+    <input type="text" name="cliente">
     <button>Enviar</button>
   </form>
 </section>
