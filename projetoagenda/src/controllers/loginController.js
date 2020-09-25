@@ -53,7 +53,7 @@ exports.login = async function (req, res) {
 };
 
 exports.logout = function (req, res) {
-  // req.flash('success', 'Você saiu do sistema.');
   req.session.destroy();
+  // req.flash('success', 'Você saiu do sistema.');
   res.redirect('/');
 };
