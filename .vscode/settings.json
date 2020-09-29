@@ -1,9 +1,10 @@
 {
   "code-runner.runInTerminal": false,
   "editor.tabSize": 2,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-  },
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": true,
+  //   "source.fixall": true,
+  // },
   "emmet.includeLanguages": {
     "ejs": "html",
   },
