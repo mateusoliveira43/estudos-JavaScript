@@ -8,4 +8,5 @@
   "emmet.includeLanguages": {
     "ejs": "html",
   },
+  "files.autoSave": "off"
 }

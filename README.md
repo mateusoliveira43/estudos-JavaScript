@@ -309,7 +309,7 @@ npm i nomePacote
 
 Pode usar `install` em vez de `i`. Dessa maneira no `package.json`, ele aceita versões minor e patch posteriores (`^`). Exemplo: 2.1.0, 0: patch, remoção de bugs; 1: minor, implementação de novas features; 2: major, nova versão, pode quebrar de versões diferentes (renomeação de classes e reimplementação de funções, por exemplo).  
 Para pedir uma versão exata, use a flag `-E` no comando de instalção. O `~` aceita apenas patchs posteriores.
-Para instalar como dependências de desenvolvimento, utilize a flag `--save-dev`.
+Para instalar como dependências de desenvolvimento, utilize a flag `--save-dev` ou `-D`.
 Para instalar como dependências de produção (padrão), utilize a flag `--save-prod`.
 Para instalar uma versão específica, utilize a flag `nomePacote@versão` (exemplo `express@2.1.0`). Também podemos utilizar a flag `nomePacote@4.x` para instalar a versão 4.
 
