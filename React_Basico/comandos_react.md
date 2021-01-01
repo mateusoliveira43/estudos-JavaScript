@@ -14,3 +14,9 @@ Para parar o servidor, execute
 ```
 Ctrl+C
 ```
+
+Para configurar o eslint, execute
+```
+npm i eslint babel-eslint -D
+npx eslint --init
+```
