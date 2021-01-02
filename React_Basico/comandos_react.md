@@ -20,3 +20,8 @@ Para configurar o eslint, execute
 npm i eslint babel-eslint -D
 npx eslint --init
 ```
+
+Para utilizar ícones, execute
+```
+npm i react-icons
+```
