@@ -25,3 +25,8 @@ Para utilizar ícones, execute
 ```
 npm i react-icons
 ```
+
+Para utilizar props, execute
+```
+npm i prop-types
+```
