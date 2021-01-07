@@ -21,6 +21,11 @@ npm i eslint babel-eslint -D
 npx eslint --init
 ```
 
+Para configurar o prettier, execute
+```
+npm i prettier eslint-config-prettier eslint-plugin-prettier -D
+```
+
 Para utilizar ícones, execute
 ```
 npm i react-icons
