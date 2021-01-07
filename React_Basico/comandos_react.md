@@ -35,3 +35,8 @@ Para utilizar props, execute
 ```
 npm i prop-types
 ```
+
+Para utlizar componentes estilizados, execute
+```
+npm i styled-components
+```
