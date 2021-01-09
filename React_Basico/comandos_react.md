@@ -54,5 +54,5 @@ npm i react-toastify
 
 Para utlizar o redux, execute
 ```
-npm i redux react-redux
+npm i redux react-redux redux-saga
 ```
