@@ -44,4 +44,5 @@ npm i styled-components
 Para utlizar roteamento, execute
 ```
 npm i react-router-dom
+npm i history@4.10.1
 ```
