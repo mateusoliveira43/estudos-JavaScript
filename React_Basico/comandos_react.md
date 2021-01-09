@@ -46,3 +46,8 @@ Para utlizar roteamento, execute
 npm i react-router-dom
 npm i history@4.10.1
 ```
+
+Para utlizar mensagens, execute
+```
+npm i react-toastify
+```
