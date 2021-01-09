@@ -40,3 +40,8 @@ Para utlizar componentes estilizados, execute
 ```
 npm i styled-components
 ```
+
+Para utlizar roteamento, execute
+```
+npm i react-router-dom
+```
