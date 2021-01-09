@@ -51,3 +51,8 @@ Para utlizar mensagens, execute
 ```
 npm i react-toastify
 ```
+
+Para utlizar o redux, execute
+```
+npm i redux react-redux
+```
