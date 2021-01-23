@@ -1,12 +1,18 @@
 {
-  "code-runner.runInTerminal": false,
   "editor.tabSize": 2,
-  // "editor.codeActionsOnSave": {
-  //   "source.fixAll.eslint": true,
-  //   "source.fixall": true,
-  // },
+  
   "emmet.includeLanguages": {
     "ejs": "html",
     "javascript": "javascriptreact"
+  },
+
+  "code-runner.runInTerminal": false,
+  "code-runner.executorMap": {
+    "typescript": "npx ./Aulas_TypeScript/node_modules/.bin/ts-node --files", // Não precisa do caminho em projetos separados
+  },
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixall": true,
   },
 }
