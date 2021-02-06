@@ -1,9 +1,9 @@
 // Tipos
 
 // any : não recomendando
-function showMessage(msg) {
-  return msg;
-}
+// function showMessage(msg) { // implicitamente recebe o tipo any
+//   return msg;
+// }
 
 function showMessageExplicit(msg: any) {
   return msg;
@@ -26,7 +26,7 @@ const objetoA: {
   chaveB: 'valorB',
 };
 
-objetoA.chaveA = 'outro valor';
+// objetoA.chaveA = 'outro valor'; // não pode, por ser readonly
 
 // array :
 export function multiplicaArgs(...args: Array<number>): number {

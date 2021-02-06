@@ -34,3 +34,14 @@ Para criar um arquivo de configuração do TypeScript, execute
 ```
 npx tsc --init
 ```
+
+Para instalar o webpack, execute
+```
+npm i ts-loader webpack webpack-cli -D
+```
+
+Para usar o webpack, execute
+```
+npx webpack
+npx webpack -w
+```
