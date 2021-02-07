@@ -45,3 +45,8 @@ Para usar o webpack, execute
 npx webpack
 npx webpack -w
 ```
+
+Para instalar os tipos de uma biblioteca (*declaration file*), execute
+```
+npm i @types/nome_da_biblioteca -D
+```
