@@ -11,8 +11,8 @@
     "typescript": "npx ./Aulas_TypeScript/node_modules/.bin/ts-node --files", // Não precisa do caminho em projetos separados
   },
 
-  // "editor.codeActionsOnSave": {
-  //   "source.fixAll.eslint": true,
-  //   "source.fixall": true,
-  // },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixall": true,
+  },
 }
